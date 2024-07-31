@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^cult4apps\.com\.mycloudportion\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.cult4apps\.com\.mycloudportion\.com$
+RewriteRule ^/?$ "https\:\/\/www\.cult4apps\.com\/" [R=301,L]
+
